@@ -1,0 +1,40 @@
+p {
+	margin-top: 1px;        /*huuhed elementuudiin hoorondoh zaiga avch baina*/
+	margin-bottom: 2px;
+	border-top: 1px solid; /*huuhed elementuudiin deerh huree*/
+	border-color: #687291; /*hureenii ungu*/
+	text-align: center;    /* dotor bichigdsen zuilsiig delgets ruu gargaj baina*/
+	width: 100px;          /*huuhed elementuudiin urgun bolon undur */
+	height: 100px;
+}
+#A {
+	background:  #dfe1e7;  /* huuhed bolgond uuriinh ni bie daasan ungiig ugch baina*/
+}
+#B {
+	background:  #eeeff2;
+}
+#C {
+	background:  #dfe1e7;
+}
+#D {
+	background:  #eeeff2;
+}
+#E {
+	background:  #dfe1e7;
+}
+#F{
+	background:  #687291;
+	border: 4px solid black;
+}
+body { 
+	font-family: Tahoma; /*bie heseg font bolon dotorh container iig golluulgh */
+	font-size: 40px;
+	text-align: center;
+}
+
+
+.center {  /* container */
+  width: 100px;      
+  height: 100px;
+  display: inline-block;
+}

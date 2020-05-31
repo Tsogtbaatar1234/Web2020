@@ -1,0 +1,49 @@
+body {
+	font-size: 40px;
+	font-family: Tahoma;
+}
+p {
+	padding-left: 10px;
+	display: inline-block;
+	width: 100px;
+	height: 150px;
+	border-left: 10px dotted;
+	border-color: #D0D0FF;
+	margin: 10px;
+	background: #eeeff2;
+}
+.center {
+	 display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+#A:hover {
+	background:  yellow; 
+	cursor: pointer; /* huuhed bolgond uuriinh ni bie daasan ungiig ugch baina*/
+}
+#B:hover {
+	background:  goldenrod; 
+	cursor: pointer; 
+}
+#C:hover {
+	background:  yellow; 
+	cursor: pointer; 
+}
+#D:hover {
+	background:  goldenrod; 
+	cursor: pointer; 
+}
+#E:hover {
+	background:  yellow; 
+	cursor: pointer; 
+}
+#F:hover {
+	background:  goldenrod; 
+	cursor: pointer; 
+}
+#F{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

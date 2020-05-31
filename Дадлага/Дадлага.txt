@@ -1,0 +1,43 @@
+﻿Component Html шиг харагддаг (Үнэндээ JSX)
+Component нь дотроо төлөв хадгална (data болон UI -sy төлөв)
+Component нь дотроо Javascript болон функц агуулна 
+
+
+Component төлөв
+
+Үргэлж dynamic өөрчлөгдөж байх болно.
+
+жишээ 
+{
+	items:[
+	{name:'navy jumper'}
+	]
+}
+
+төлөв ямар нэгэн байдлаар өөрчлөгдсөн тохиолдолд өөрчлөлт шууд харагдах болно.
+
+Single page apps React ашиглаж байгаа ихэнх нь
+
+Хэрэглэгчийн хүсэж байгаа зүйлээс хамааран хэрэгтэй component е ыг харуулна.
+
+Root component үндсэн компонент дом дээр үүснэ. Бусад хүүхэд компонент нь рүүт дээр очиж үүснэ
+
+Props component - оос component хооронд өгөгдөл зөөхөд ашиглагдана
+
+const {name, age, belt } = this.props;
+	return (
+        <div className="ninja">
+          	<div>Name: { name }</div>
+          	<div>Age: {age }</div>
+         	<div>Belt: { belt }</div>
+        </div>
+     	)
+	</div>
+)
+
+Container, UI components
+
+Container - төлөв хадгална, амьдралын мөчлөг мэдээлэл, UI хамаагүй классаар үссгэгдэнэ
+
+UI - төлөв хадгалахгүй өгөгдөлийг prop - оос авна. UI хамаатай функцаар үүсгэгдэнэ.
+
