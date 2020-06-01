@@ -1,0 +1,15 @@
+﻿Node.js
+
+Opensoure course platform
+
+runtime environment for Javascript code broswer aas gadna
+
+өндөр хурдны app хийхэд 
+цэвэрхэн найдвартай программ бичихэд хэрэгтэй.
+Javascript ашиглана
+
+browser дотор хийж болохгүй зүйлийг хийх нэмэлт боломжуудыг олгодог.
+
+non blocking archethecture (Asynchorous)
+
+neg thread olon request deer ajilaj chadna
